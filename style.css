@@ -1,22 +1,27 @@
+body{
+    background: rgb(0, 0, 0);
+    color: white;
+}
 .key{
-    border: 5px solid yellow;
-    /* width: 80px;
-    height: 80px; */
+    border: 8px solid yellow;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
     float: left;
     margin: 10px;
     align-items: center;
     text-align: center;
 }
 .main{
-    border: 1px solid red;
+    font-size: 40px;
     box-sizing: border-box;
 }
 .desc{
-    border: 1px solid grey;
     box-sizing: border-box;
+    margin-top: 10px;
 }
 .trans{
-    transform: scale(1.1);
-    border-color: #ffc600;
+    transform: scale(1.15);
+    border-color: #f0730e;
     box-shadow: 0 0 1rem #0f0f0f;
 }
