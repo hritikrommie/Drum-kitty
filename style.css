@@ -18,7 +18,7 @@ h1 {
     background-color:#000000;
      box-sizing: border-box;
     height: 100%;
-    width: 5%;
+    width: 6%;
     padding-bottom:25%;
     padding-left: 0%;
     margin-right: 2%;
@@ -29,14 +29,16 @@ h1 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: #ffffff;
+    border: 10px solid black;
     position: relative;
 }
 .main {
     box-sizing: border-box;
     height: 100%;
     width: 10%;
-    font-size: 100%;
-    margin-left: 40%;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 33%;
 }
 .desc {
 text-align: center;
@@ -49,8 +51,8 @@ right: 0;
 }
 
 .trans{
-    transform: scale(1);
-    box-shadow: 0 0 1rem #0f0f0f;
-    background-color: #f0730e;
+    transform: scale(1.1);
+    box-shadow: 0 0 1.9rem #0f0f0f;
+    border-color: #f0730e;
     color:white;
 }
