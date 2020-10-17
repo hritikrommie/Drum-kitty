@@ -1,0 +1,22 @@
+.key{
+    border: 5px solid yellow;
+    /* width: 80px;
+    height: 80px; */
+    float: left;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+.main{
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.desc{
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+.trans{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #0f0f0f;
+}
